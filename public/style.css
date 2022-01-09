@@ -1,0 +1,54 @@
+body{
+    background-color: grey;
+}
+.hoursinp{
+    font-size: 4.5em;
+}
+.minsinp{
+    font-size: 4.5em;
+}
+.secinp{
+    font-size: 4.5em;
+}
+.timerContainer{
+    padding-top: 10em;
+}
+.nestedtimerContainer{
+    background-color: black;
+    height: 10em;
+}
+.startBtn{
+    width: 8em;
+    background-color: green;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.startBtn:active{
+    background-color: black;
+}
+.stopBtn:active{
+    background-color: black;
+    
+}
+.resetBtn:active{
+    background-color: rgb(250, 0, 0);
+    color: white;
+}
+.stopBtn{
+    width: 8em;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.resetBtn{
+    width: 8em;
+    background-color: white;
+    color: rgb(255, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+}
